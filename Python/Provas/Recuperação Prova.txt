@@ -1,0 +1,14 @@
+Exercício: Adicionar valores em um dicionário 4x4
+
+Escreva um programa em Python que realize a seguinte tarefa:
+
+1 - Crie uma lista com 6 valores numéricos: [3, 1, 4, 6, 2, 5].
+2 - Crie um dicionário que represente uma matriz 4x4, onde todas as posições têm valor inicial 0.
+3 - Adicione os valores da lista em posições específicas do dicionário, conforme indicado abaixo:
+    Adicione o valor 3 na posição (3, 1).
+    Adicione o valor 1 na posição (1, 2).
+    Adicione o valor 4 na posição (0, 0).
+    Adicione o valor 6 na posição (0, 3).
+    Adicione o valor 2 na posição (2, 2).
+    Adicione o valor 5 na posição (3, 3).
+4 - Após adicionar os valores nas posições corretas, imprima o dicionário resultante, exibindo os valores na forma de uma matriz 4x4.
