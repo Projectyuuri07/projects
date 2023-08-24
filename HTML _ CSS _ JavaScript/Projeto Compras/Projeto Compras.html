@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compras</title>
+</head>
+<body>
+    <!--Estilização da pagina, cores, fontes e tamanhos-->
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        th{
+            background-color: rgb(191, 216, 0);
+            padding: 10px;
+            color: rgb(84, 95, 1);
+            font-weight: 200;
+        }
+
+        td{
+            border: 1px solid rgb(227, 227, 227);
+            padding: 20px;
+        }
+
+        tr:nth-child(2n){
+            background-color: rgb(249, 251, 242);
+        }
+
+    </style>
+<!--descrição de compras e inicio da tabela-->
+    <h1><center>Descrição de compras:</center></h1>
+<table width="960px" align="center">
+    <tr>
+        <th>Descrição</th>
+        <th>quantidade</th>
+        <th>preço</th>
+        <th>Subtotal</th>
+        <th>Remover</th>
+    </tr>
+    <!--Informações do Moletom, imagem, cor e tamanho-->
+    <tr>
+        <td>
+            <ul>
+                <img src="img/moletom.png" alt="Moletom" width="150">
+                <li>Moletom Largo</li>
+                <li><b>Cor: </b>Preto</li>
+                <li><b>Tamanho: </b>G</li>
+                <li><b>Em Estoque</b></li>
+            </ul>
+        </td>
+            <!--Botões e valores do moletom-->
+        <td>
+            <button onclick="">+</button> 1 <button>-</button>
+        </td>
+        <td><center>R$:100,00</center></td>
+        <td><center>R$:100,00</center></td>
+        <td> <center><button>x</button></center></td>
+    </tr>
+    <!--Informações da calça, imagem, cor e tamanho-->
+    <tr>
+        <td>
+            <ul>
+                <img src="img/calça.png" alt="Calça" width="150">
+                <li>Calça Sarja</li>
+                <li><b>Cor: </b>Beje</li>
+                <li><b>Tamanho: </b>42</li>
+                <li><b>Em Estoque</b></li>
+            </ul>
+        </td>
+        <!--Valor das calças e seu valor único e os botões-->
+        <td>
+            <button onclick="">+</button> 2 <button>-</button>
+        </td>
+        <td><center>R$:120,00</center></td>
+        <td><center>R$:240,00</center></td>
+        <td> <center><button>x</button></center></td>
+    </tr>
+    <tr>
+        <td>
+            <!--informações do terceiro produto, imagens, preço e outras especificações-->
+            <ul>
+                <img src="img/tenis.png" alt="Tenis" width="150">
+                <li>Tenis Nike</li>
+                <li><b>Cor: </b>Preto</li>
+                <li><b>Tamanho: </b>43</li>
+                <li><b>Em Estoque</b></li>
+            </ul>
+        </td>
+        <!--Botões e adicionamos o valor do tenis-->
+        <td>
+            <button onclick="">+</button> 1 <button>-</button>
+        </td>
+        <td><center>R$:500,00</center></td>
+        <td><center>R$:500,00</center></td>
+        <td> <center><button>x</button></center></td>
+    </tr>
+    <!--texto que nós redireciona pra outra página, botão de aplicar cupom, caixa de texto e o total dos valores-->
+    <tr>
+        <td colspan="2"><a href="google.com">Escolher mais produtos</a></td>
+        <td><center>
+            <button>Aplicar Cupom
+            </button>
+            <label for="text">Cupom:</label>
+            <input type="text" placeholder="Digite seu cupom"> 
+            </center></td>
+            <td colspan="2"><b>Total:</b>R$ 840,00</td>
+    </tr>
+</body>
+</html>
